@@ -1,0 +1,12 @@
+@fondo: black;
+@tipografia: helvetica;
+@colortext: #fff;
+
+body {
+	background-color: @fondo;
+	font-family: @tipografia;
+}
+
+p{
+	color: @colortext;
+}
