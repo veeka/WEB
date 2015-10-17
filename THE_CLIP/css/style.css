@@ -1,0 +1,41 @@
+nav {
+	display: inline;
+}
+img {
+
+    vertical-align: middle;
+    margin-left: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: block;
+
+}
+
+.logo {
+    margin-top: 100px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav>li>a {
+    padding-top: 15px;
+}
+
+
+.nav>li>a>img {
+    max-width: none;
+    height: 30px;
+   
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
