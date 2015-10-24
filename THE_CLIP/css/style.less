@@ -1,0 +1,191 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+a:hover{
+    text-decoration:none;
+}
+.container-principal{
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 5px;
+    font-size: 15px;
+}
+.navbar-form .input-group input {
+    border-radius: 15px;
+}
+.input-group-btn .btn {
+    border-left: 0;
+    border-radius: 15px;
+}
+
+.index{
+    background-image: url(../images/backgroundimage.svg);
+}
+.logo{
+    text-align: center;
+    & img{
+        display: inline-block;
+    }
+}
+.incentivo{
+    text-align: center;
+    position: relative;
+    & img{
+        display: inline-block;
+    }
+}
+.flecha {
+    position: absolute;
+    bottom: 10%;
+    right: 14%;
+}
+.control-label {
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: right;
+}
+.signin-form{
+    padding-top: 150px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.signin-form input {
+    border: 0;
+    box-shadow: 0 0 0 transparent;
+    border-bottom: 1px solid #B9B9B9;
+    border-radius: 0;
+}
+.signin-form .btn-default {
+    background: #1D1D1D;
+    color: #FFF;
+    border-radius: 0px;
+    font-size: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container-catalogo {
+    padding-top: 140px;
+}
+.catalogo-item {
+    max-height: 230px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    & img{
+        height: auto;
+        width: 100% !important;
+    }
+    & .catalogo-button{
+        position: absolute;
+        bottom: 0;
+        background-color: #DB7362;
+        padding: 5px;
+        text-align: right;
+        padding-right: 20px;
+        color: #FFF;
+        & a{
+            color: #FFF;
+        }
+    }
+}
+
+
+.container-product-single {
+    padding-top: 150px;
+    font-size: 25px;
+    &  h2 {
+        font-size: 26px;
+        font-weight: 700;
+        margin-top: 0;
+    }
+    & h3 {
+        font-size: 18px;
+        font-weight: 100;
+    }
+    & hr {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: 0;
+        border-top: 3px solid #DB7362;
+    }
+}
+.container-product-single input {
+    width: 7%;
+    margin-left: 10px;
+}
+.container-product-single .btn {
+    border: 2px solid #DB7362;
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+.container-shopping {
+    text-align: center;
+    padding-top: 150px;
+    & table {
+        margin-top: 30px;
+    }
+    & .table>tbody>tr>td, .table>tbody>tr>th {
+        border-top: 2px solid #DB7362;
+    }
+    & table tr th{
+        font-weight: 600;
+    }
+    & table tr td{
+        text-align: left;
+    }
+    & span{
+        font-weight: 600;
+        font-size: 25px;
+    }
+    & .btn{
+        background-color: #DB7362;
+        padding: 3px;
+        margin-top: 60px;
+        border-radius: 0;
+        color: #FFF;
+        font-size: 20px;
+    }
+}
+
+.payment-form{
+    font-size: 18px;
+    font-weight: 100;
+    text-align: left;
+}
+.payment-form input {
+    border: 0;
+    box-shadow: 0 0 0 transparent;
+    border-bottom: 1px solid #DB7362;
+    border-radius: 0;
+}
+.payment-form .btn-default {
+    background: #DB7362;
+    color: #FFF;
+    border-radius: 0px;
+    font-size: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
