@@ -1,0 +1,35 @@
+.box {
+  width: 60px;
+  height: 60px;
+  margin: 30px;
+
+}
+
+.fast {
+  width: 70px;
+  height: 26px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #ddd;
+}
+
+.slow {
+  width: 70px;
+  height: 26px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #ddd;
+}
+
+.reset {
+  width: 140px;
+
+}
+ 
+body {
+	background-color: #CACC60;
+}

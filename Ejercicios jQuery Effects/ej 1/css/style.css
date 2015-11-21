@@ -1,0 +1,40 @@
+   body{
+   	background-color: #9FC44E;
+   }
+  
+#right {
+    background-color: #7DA01C;
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    border: none;
+}
+#left {
+    background-color: #7DA01C;
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    border: none;
+}
+
+.buttons {
+	    margin-left: 600px;
+    margin-top: 25px;
+}
+
+#block {
+        height: 200px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: white;
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+}

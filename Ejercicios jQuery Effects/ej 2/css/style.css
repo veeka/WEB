@@ -1,0 +1,35 @@
+
+p {
+		    background-color: #891616;
+		    font-weight: bold;
+		    font-size: 16px;
+		  }
+
+body {
+		   background: url(../images/livingroom.svg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+.image {
+	width: 338.12px;
+	height: 392.91px;
+	margin-top: 56px;
+    margin-left: 463px;
+}
+
+button {
+	background-color: #7DA01C;
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    border: none;
+}
+
+.click-me {
+	font-family: helvetica;
+	color: black;
+	
+}
